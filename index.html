@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal porftolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89e88c5650.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <p><i class="fa-solid fa-microchip"></i>HUBERT</p>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">porftolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I am <span>Hubert</span> Mucyo<br>from Rwanda</h1>
+        </div>
+    </div>
+</div>
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a goal driven,self-aware Student at African Leadership University (ALU) 
+                   with broad skills in computer science, database management, business management and marketing.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>Web app development using HTML,CSS, and JAVASCRIPT.</li>
+                        <li><span>App development</span><br>Building PYTHON and C++ applications.</li>
+                        <li><span>Data Analysis</span><br>Inspecting,transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.</li>
+                        <li><span>Database administration and management</span><br>Proficient in SQL and DB design principles and capable of fully embedding DB in apps.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Freelance Design trainer</li>
+                        <li><span>2022 - 2023</span><br>Freelance Web Developer<br></li>
+                        <li><span></span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>African Leadership University (ALU) - Software Engineering</li>
+                        <li><span>2024 - Current</span><br>Kotelawala Defense University (KDU) - Computer Science</li>
+                        <li><span>2015 -2022</span><br>Saint Ignatius High School (SIHS) - Maths, Computer Science, Economics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--services-->
+
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App development</h2>
+                <p>I write software programs for use across mobile operating systems, android, macOS, ubuntu, and other operating systems</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web Development</h2>
+                <p>I develop websites for internet and intranet using Html, Css, and Javascript</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database management</h2>
+                <p>I am Proficient in DB administration and management by using different management systems like Mysql while capable of fully embeding DB in programs </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--porfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Website of N&E Constructions</h3>
+                    <p>The website provides information about the construction company and all it's works and accomplishments</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>BodyMath</h3>
+                    <p>A smart BMI calculator</p>
+                    <p>Health and wellness app designed to empower individuals on their weight management journey, combines BMI tracking with personalized insights based on blood type, creating a holistic approach to achieving and maintaining a healthy weight.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>    
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Patients Database Manager</h3>
+                    <p>A DB that manages all patients information by storing all their information got from the bodymath application</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div> 
+            </div>
+        </div>
+        <a href="#" class="btn">Back to top</a>
+    </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-sharp fa-regular fa-paper-plane"></i></i> h.mucyo@alustudent.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0788450169</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/le.vizir/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hubert-mucyo-857ab62a0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/mucyohuberttt"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/hubertmucyo"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hubert</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            console.log(tablink);
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTXQJAY4ERxt_mxM2mmGntVEmHhMGQopyFrd1XC_UwTu9zRfNRMvGrvuNE1UBPIWUq/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+
+</html>
